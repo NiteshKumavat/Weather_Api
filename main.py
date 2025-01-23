@@ -47,10 +47,10 @@ class User_location :
 
             longitude = float(self.longitude.get())
             latitude = float(self.latitude.get())
-
+            # get you api key from www.api.weather.com
             if longitude and latitude :
                 parameter = {
-                    "key": "17cbbd9ebcc5448cbc3153152242312",
+                    "key": "Get Your Own key", 
                     "q": f"{longitude}, {latitude}"
                 }
 
